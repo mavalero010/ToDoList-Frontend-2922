@@ -1,0 +1,15 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #444;
+}
+body header,
+body section {
+  border: 1px solid #444;
+}
+body section .task article {
+  display: flex;
+}

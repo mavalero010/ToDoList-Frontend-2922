@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1><span>*</span>Lista de Tareas</h1>
+        </div>
+        <div class="new-task">
+            <form action="#" method="post">
+                <input type="text" placeholder="Nueva tarea" name="task" id="text-task">
+                <input type="date" name="date" id="date-task">
+                <input type="submit" value="Agregar" id="add-task">
+            </form>
+        </div>
+    </header>
+
+    <section>
+        <div class="filter-sort">
+            <div class="filter">
+                <label for="">Filtro</label>
+                <select name="" id="">
+                    <option value="">a</option>
+                    <option value="">b</option>
+                    <option value="">c</option>
+                </select>
+            </div>
+            <div class="sort">
+                <label for="">Ordernar</label>
+                <select name="" id="">
+                    <option value="">a-z</option>
+                    <option value="">z-a</option>
+                </select>
+                <label for=""><span>*</span></label>
+            </div>
+        </div>
+        <div class="task">
+            <article>
+                <div class="checkbox">
+                    <input type="checkbox" name="" id="">
+                </div>
+                <div class="taskname">
+                    <p>Despliegue a producción</p>
+                </div>
+                <div class="date">
+                    <p><span>*</span>14 de Marzo de 2023</p>
+                </div>
+                <div class="options-date">
+                    <div class="options">
+                        <p><span class="edit">*</span></p>
+                        <p><span class="delete">*</span></p>
+                    </div>
+                    <div class="date">
+                        <p><span>*</span>14 de Marzo de 2023</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
